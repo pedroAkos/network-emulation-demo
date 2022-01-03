@@ -44,7 +44,7 @@ if [ -z $net ]; then
   exit 1
 fi
 
-if [ -z $DOCKER_HOSTS ]; then
+if [ -z "$DOCKER_HOSTS" ]; then
   echo "Pls set env DOCKER_HOSTS"
   help
   exit 1

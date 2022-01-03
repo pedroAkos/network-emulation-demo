@@ -16,12 +16,12 @@ nContainers=$3
 exec=$4
 bootstrap=$5
 
-if [ "$#" -lt 4 ]; then
+if [ "$#" -lt 5 ]; then
   help
   exit 1
 fi
 
-shift 4
+shift 5
 
 n_nodes=$DOCKER_N_HOSTS
 function nextnode {

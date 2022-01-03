@@ -15,6 +15,12 @@ Will only run on linux.
 5) Extract logs from containers
 6) Process logs offline
 
+## Stuff I need to show and explain:
+
+- Emulation configuration files
+- Dockerfiles
+- Scripts
+
 ## Project Structure
 - cmd: application code
   - ``simple.go``: a simple libp2p chat application

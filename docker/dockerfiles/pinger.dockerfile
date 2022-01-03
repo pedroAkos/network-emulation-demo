@@ -5,6 +5,7 @@ COPY go-libp2p-simple/go.mod .
 RUN go mod download
 COPY go-libp2p-simple .
 RUN go build -o /out/pinger cmd/pinger.go
+
 FROM debian:buster-slim as app
 COPY dht/docker/pkg/install-packages.sh .
 
